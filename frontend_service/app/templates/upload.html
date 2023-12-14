@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Prediction</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    }
+
+    body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wallpapercave.com/wp/wp4893912.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px); 
+    z-index: -1;
+    }
+
+    form {
+        background-color: rgb(255, 255, 255);
+        border: 2px solid;
+        margin-left: 29%;
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        padding: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        border-radius: 6px;
+    }
+    .container{
+        margin-top: 10%;
+    } 
+    input[type="file"] {
+        margin: 10px 0;
+    }
+
+    input[type="submit"] {
+        padding: 10px;
+        background-color: #7d627a;
+        color: white;
+        background-color: rgb(157, 157, 157);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #b19daf;
+    }
+    .btn ,.btn:hover{
+        background-color: #a77393;
+    }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-5" style="color: rgb(255, 0, 132);">Predict Your Music Gender</h1>
+
+        <form action="/upload" method="post" enctype="multipart/form-data" class="mt-5">
+            <div class="form-group" >
+                <label for="musicFile" style="font-size: 25px;">Select Your File:</label>
+                <input type="file" class="form-control" name="musicFile" id="musicFile" accept=".wav" required>
+            </div>
+
+            <button type="submit" class="btn btn-block mt-3"><span style="color: rgb(255, 255, 255);">Predict</span></button>
+
+            <h2 class="mt-3" style="color: rgb(255, 0, 132); font-size: 15px;">{{result}}</h2>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
